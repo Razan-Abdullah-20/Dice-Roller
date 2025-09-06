@@ -6,9 +6,10 @@ void main() {
     MaterialApp(
       title: "Razan`s First VScode Flutter app",
       home: Scaffold(
+        extendBodyBehindAppBar: true,
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 209, 213, 190),
-          elevation: 3,
+          backgroundColor: Colors.transparent,
+          elevation: 0,
           title: Text(
             "LUCKY DICE",
             style: TextStyle(fontSize: 30, color: Colors.black),
